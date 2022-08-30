@@ -1,0 +1,20 @@
+p.default-text {
+  color: purple;
+  margin-top: 100px;
+}
+h1 {
+}
+img {
+}
+#mainTitle {
+  color: white;
+}
+.default-text {
+  color: lightcoral;
+}
+input[required] {
+  border-color: red;
+}
+.default-text.custom-text {
+  color: yellow;
+}
