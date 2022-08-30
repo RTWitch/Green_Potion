@@ -1,0 +1,30 @@
+* {
+  background-color: rgb(55, 40, 69);
+}
+h1 {
+  color: slateblue;
+}
+h1 > span {
+  color: lightcoral;
+}
+.colorOne {
+  color: mediumpurple;
+}
+.colorTwo {
+  color: plum;
+}
+#invisible {
+  color: aliceblue;
+}
+.colorOne.sectionOne {
+  color: rgb(181, 224, 238);
+}
+.colorTwo.sectionTwo {
+  color: rgb(119, 212, 255);
+}
+.colorOne.sectionThree {
+  color: rgb(126, 112, 100);
+}
+p > span {
+  color: gold;
+}
