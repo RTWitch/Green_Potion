@@ -3,25 +3,41 @@
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: darkslateblue;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #c4c4c4;
 }
-p {
-  display: block;
+.block {
+  margin-bottom: 50px;
+  background-color: #e6e6e6;
 }
+.last-block {
+  background-color: #e6e6e6;
+}
+
 .float-left {
   float: left;
-  margin-right: 1rem;
+  margin-right: 15px;
 }
 .float-right {
   float: right;
-  margin-left: 1rem;
+  margin-left: 15px;
 }
 .clearfix {
   display: block;
   clear: both;
 }
-div {
-  background-color: rgb(235, 162, 235);
+.square {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+}
+.small-square {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #fc8f8f;
 }
