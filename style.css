@@ -4,29 +4,36 @@
   margin-left: auto;
   margin-right: auto;
 }
-.flex {
-  display: inline-flex;
-  padding: 20px 10px;
+.inline-block {
+  display: inline-block;
 }
 .card {
   width: 200px;
-  padding: 5px 5px;
-  margin-top: 50px;
-  margin-left: 100px;
-  background-color: rgb(196, 104, 236);
+  height: 226px;
+  background: #e0e0e0;
 }
 .image {
-  width: 100%;
+  width: 130px;
+  height: 130px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 96px;
 }
 .title {
-  font-size: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
   text-align: center;
-  width: 100%;
-  margin: 20px auto;
+  color: #000000;
 }
 .description {
-  font-size: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
-  width: 100%;
-  margin: 20px auto;
+  color: #000000;
 }
