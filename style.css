@@ -11,13 +11,14 @@
   width: 200px;
   height: 226px;
   background: #e0e0e0;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  background-color: indigo;
 }
 .image {
-  width: 130px;
-  height: 130px;
+  max-width: 100%;
   padding-left: 35px;
   padding-right: 35px;
-  padding-bottom: 96px;
 }
 .title {
   font-family: "Roboto";
@@ -26,7 +27,7 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #000000;
+  color: mediumpurple;
 }
 .description {
   font-family: "Roboto";
@@ -35,5 +36,5 @@
   font-size: 14px;
   line-height: 18px;
   text-align: center;
-  color: #000000;
+  color: peru;
 }
